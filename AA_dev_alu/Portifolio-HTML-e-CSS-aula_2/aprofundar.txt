@@ -1,0 +1,15 @@
+https://www.alura.com.br/artigos/html-css-e-js-definicoes
+https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos
+https://www.w3schools.com/tags/
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics
+https://htmldog.com/references/html/
+https://htmldog.com/guides/html/beginner/
+https://webaim.org/intro/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+https://code.visualstudio.com/docs/editor/extension-gallery
+https://www.interaction-design.org/literature/topics/ux-design
+https://github.com/ritwickdey/vscode-live-server
+https://css-tricks.com/guides/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+https://css-tricks.com/emmet/
+https://html.com/html5/

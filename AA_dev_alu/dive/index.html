@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotfy Imersão</title>
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <Link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/main_content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+<body>
+    <div class="sidebar">
+        <nav class="sidebar__navegation">
+            <div class="logo">
+                <a href="">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+        '   </div>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+               <a href="">Cookies</a> 
+            </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>    
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir">
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+            </nav>
+            <div class="playlist-container">
+                <div id="result-playlists">
+                    <div class="playlist">
+                        <h1 id="greeting">Boas vindas</h1>
+                        <h2 class="greeting-subtitle">Navegar por todas as seções</h2>
+                    </div>
+                </div>
+                <div class="offer__scroll-container">
+                    <div class="offer__list">
+                        <section class="offer__list-item">
+                            <!--CARD 1-->
+                            <a href="" class="cards">
+                                <div class="cards card1">
+                                    <img src="./src/assets/playlist/1.jpeg" alt="">
+                                    <span>Boas festas</span>
+                                </div>
+                            </a>
+
+                            <!--CARD 2-->
+                            <a href="" class="cards">
+                                <div class="card card2">
+                                    <img src="./src/assets/playlist/2.png" alt="">
+                                    <span>Feitos pra você</span>
+                                </div>
+                            </a>
+
+                            <!--CARD 3-->
+                            <a href="" class="cards">
+                                <div class="card card3">
+                                    <img src="./src/assets/playlist/3.png" alt="">
+                                    <span>Lançamentos</span>
+                                </div>
+                            </a>
+
+                            <!--CARD 4-->
+                            <a href="" class="cards">
+                                <div class="card card4">
+                                    <img src="./src/assets/playlist/4.png" alt="">
+                                    <span>Creators</span>
+                                </div>
+                            </a>
+
+                            <!--CARD 5-->
+                            <a href="" class="cards">
+                                <div class="card card5">
+                                    <img src="./src/assets/playlist/5.png" alt="">
+                                    <span>Para treinar</span>
+                                </div>
+                            </a>
+
+                        
+                    </section>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__title">Fale ae, você sempre quis participar</p>
+            <p class="footer__subtitle">e agora você pode
+            </p> 
+        </div>
+        <div class="button">
+                <button type="button">
+                    Inscreva-se
+                </button>
+           
+        </div>
+    </footer>  
+
+</body>
+</html>
